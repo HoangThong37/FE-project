@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/order.css" />
+    <title>Order Detail</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="flex justify-between">
+        <h1>Order Detail</h1>
+      </div>
+
+      <div class="content px-50">
+        <div id="cart-detail">
+          <div>
+            <table class="w-full mb-10 max-h-135 overflow-y-scroll text-left">
+              <thead>
+                <tr>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <p id="total-price"></p>
+      </div>
+    </main>
+
+    <script src="/js/order.js"></script>
+  </body>
+</html>
